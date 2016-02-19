@@ -1,5 +1,6 @@
-java
-asdf
-blqblq
-asdasd, dasd ,asd as rewfe
+The LinkedList class extends AbstractSequentialList 
+and implements the List interface. 
+It provides a linked-list data structure.
 
+Given below are the constructors 
+supported by the LinkedList class.

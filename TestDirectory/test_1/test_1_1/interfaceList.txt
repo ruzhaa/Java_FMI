@@ -1,0 +1,5 @@
+The List interface places additional stipulations, 
+beyond those specified in the Collection interface, 
+on the contracts of the iterator, add, remove, equals, 
+and hashCode methods. 
+Declarations for other inherited methods are also included here for convenience.
