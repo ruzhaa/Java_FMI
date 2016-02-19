@@ -13,6 +13,7 @@ public class FileHolder {
 		areProducersDone = false;
 	}
 
+// add
 	public void add(Line data) {
 		synchronized (queue) {
 			queue.add(data);
@@ -24,6 +25,7 @@ public class FileHolder {
 		return queue.isEmpty();
 	}
 
+//	take
 	public Line get() {
 		synchronized (queue) {
 			while (queue.isEmpty()) {

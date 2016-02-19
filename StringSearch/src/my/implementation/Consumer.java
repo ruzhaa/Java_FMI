@@ -23,9 +23,15 @@ public class Consumer extends Thread {
 			while (!fileHolder.isProducingFinished() || !fileHolder.isEmpty()) {
 				Line data = fileHolder.get();
 				if (data.getLine().contains(keyword)) {
-					System.out.println(data.toString());
-				}
+					
+					printFoundLine(data.toString());
+				} 
 			}
 		}
+	}
+	
+	protected void printFoundLine(String s1) {
+		System.out.println(s1);
+	
 	}
 }
